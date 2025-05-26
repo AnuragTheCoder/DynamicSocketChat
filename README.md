@@ -3,7 +3,8 @@
 Chattu is a full-stack real-time chat application built with **MERN Stack**, **Socket.IO**, and **Cloudinary** for media uploads. It features group chat support, friend requests, user roles, and an admin dashboard for managing users and chats.
 
 ---
-
+## Live Website Link
+-- **https://chatapp-frontend-two-chi.vercel.app**
 ## 🚀 Features
 
 ### 👥 User Features
@@ -65,5 +66,24 @@ Chattu is a full-stack real-time chat application built with **MERN Stack**, **S
 
 ### 1. Clone Repositories
 ```bash
-git clone https://github.com/AnuragTheCoder/chatapp-server.git
-git clone https://github.com/AnuragTheCoder/chatapp-frontend.git
+git clone https://github.com/AnuragTheCoder/DynamicSocketChat.git
+cd client
+npm i
+npm run dev
+make a .env in client
+VITE_SERVER=""  //your backend erver url
+cd ..
+cd server
+npm i
+make e.env
+#Add This Environment Variables
+PORT=3000
+MONGO_URI
+CLIENT_URL   Add Your Client URL
+JWT_SECRET
+NODE_ENV='production'
+CLOUDINARY_CLOUD_NAME
+CLOUDINARY_API_KEY
+CLOUDINARY_API_SECRET
+ADMIN_SECRET_KEY=""
+
