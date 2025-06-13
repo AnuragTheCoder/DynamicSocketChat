@@ -5,6 +5,9 @@ Chattu is a full-stack real-time chat application built with **MERN Stack**, **S
 ---
 ## Live Website Link
 -- **https://chatapp-frontend-two-chi.vercel.app**
+-- **https://chatapp-frontend-two-chi.vercel.app/admin**
+
+Admin-SecretKey--Hello
 ## 🚀 Features
 
 ### 👥 User Features
